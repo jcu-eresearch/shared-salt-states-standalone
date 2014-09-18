@@ -18,5 +18,5 @@ messages.
 To run::
 
     cd shared-salt-states-standalone
-    salt-call --local -l debug --file-root=. --pillar-root=pillar state.highstate
+    sudo salt-call --local -l debug --file-root=. --pillar-root=pillar state.highstate
 

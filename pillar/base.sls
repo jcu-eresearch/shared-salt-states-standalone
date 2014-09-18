@@ -1,14 +1,14 @@
 nginx:
-   service-name:
-   contact-email: 
+   service-name: Journals
+   contact-email: eresearch@jcu.edu.au
 
 shibboleth:
-   host: 
-   entityID: 
+   host: journals.jcu.io
+   entityID: https://journals.jcu.io/shibboleth
    REMOTE_USER: auEduPersonSharedToken eppn persistent-id targeted-id
-   supportContact: 
+   supportContact: david.beitey@jcu.edu.au
    hosts:
-      host.example.org:
+      journals.jcu.io:
          paths:
             '/':
                requireSession: 'false'
