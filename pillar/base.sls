@@ -3,6 +3,7 @@ nginx:
    contact-email: eresearch@jcu.edu.au
 
 shibboleth:
+   test: true
    host: journals.jcu.io
    entityID: https://journals.jcu.io/shibboleth
    REMOTE_USER: auEduPersonSharedToken eppn persistent-id targeted-id
